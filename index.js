@@ -77,5 +77,5 @@ app.delete("/delete/:id", async(req,res)=>{
 
 // const port = process.env.PORT || 3001;
 app.listen(process.env.PORT || 3001, ()=>{
-    console.log("Server is running");
+    console.log("Server is running...");
 });
